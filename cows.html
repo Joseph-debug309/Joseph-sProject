@@ -7,29 +7,29 @@
     <link rel="stylesheet" href="dist/css/bootstrap.css">.
     <script src="dist/js/bootstrap.js"></script>
 </head>
-<body style="background-color: aquamarine;">
+<body style="background-color: rgb(202, 231, 221);">
 
  <!-- Start of section One -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" width="70%"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" width="70%" style="background-blend-mode: color-burn;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link display-5 text-success" aria-current="page" href="index.html">Thai Farmcare</a>
+          <a class="nav-link active text-success display-6" aria-current="page" href="index.html"><span class=" badge bg-success">Thai Farmcare</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active display-6 text-success" href="cows.html">Cows.</a>
+          <a class="nav-link text-success display-6" href="cows.html"><span class=" badge bg-success">Cows</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link display-6 text-success" href="chicken.html">Chicken</a>
+          <a class="nav-link text-success display-6 href="chicken.html"><span class=" badge bg-success">Chicken</span></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle display-6 text-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More
+          <a class="nav-link dropdown-toggle text-success display-6 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <span class=" badge bg-success">more</span>
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="cows.html">Cows page</a></li>
@@ -40,8 +40,49 @@
       </ul>
     </div>
   </div>
-</nav><hr>
+</nav>
 <!-- end of section one -->
+
+<!-- start of carousel -->
+   <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/peo-hedin-DUVnfH8nwTE-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-success" style="opacity: 0.7;">
+        <h5>Cows</h5>
+        <p>Farm animals that give lots of profit</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/jacinto-diego-zJ4a2ef8w1U-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-success" style="opacity: 0.7;">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/sylvester-sabo-pbVHirmJzSU-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block bg-success" style="opacity: 0.7;">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+   <!-- end of carousel -->
 
 <!-- start of section two -->
     <h3>Feeds</h3>
@@ -92,24 +133,15 @@
    </section>
    <!-- end of section three -->
 
-   <!-- start of section end -->
+  <!-- start of section eight -->
 <section class="row bg-success">
-  <div class="col-lg-4 p-4 text-white">
+  <div class="col-lg-6 p-4 text-white">
     <h4 class="text-center">About Us</h4>
     <p>Thai farmcare is a company dedicated in livestock and their inputs. We are focused on helping farmers find necesssary inputs easily</p>
      <p>We are located in Nakuru, sokoni plaza 2nd floor just off Kenyataa avenue</p>
   </div>
 
-  <div class="col-lg-4 p-4 text-white">
-
-    <form action="">
-      <input type="email" placeholder="Enter Email adress" class="form-control"><br>
-      <textarea cols="50" rows="6" placeholder="Leave a comment"></textarea><br><br>
-      <input type="submit" value="Send Message" class="btn btn-outline-danger">
-    </form>
-  </div>
-
-  <div class="col-lg-4">
+  <div class="col-lg-6 text-center">
     <h4 class="text-white p-4 text-center text-white">Stay Connected</h4>
     <a href="https://www.facebook.com">
       <img src="images/fb.png" alt="" width="10%">
@@ -129,6 +161,6 @@
 <footer class="text-white p-2 bg-dark text-center">
   <b>Developed by Joseph. &copy; 2026 All Rights Reserved</b>
 </footer>
-<!-- end of section end -->
+<!-- section eight ends here -->
 </body>
 </html>
