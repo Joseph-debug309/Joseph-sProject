@@ -6,29 +6,30 @@
     <title>Cows</title>
     <link rel="stylesheet" href="dist/css/bootstrap.css">.
     <script src="dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color: rgb(202, 231, 221);">
 
  <!-- Start of section One -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" width="70%" style="background-blend-mode: color-burn;"></a>
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" width="70%" id="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active text-success display-6" aria-current="page" href="index.html"><span class=" badge bg-success">Thai Farmcare</span></a>
+          <a class="nav-link active text-success display-6" aria-current="page" href="index.html"><span class=" badge bg-success">Smartfarm</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-success display-6" href="cows.html"><span class=" badge bg-success">Cows</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-success display-6 href="chicken.html"><span class=" badge bg-success">Chicken</span></a>
+          <a class="nav-link text-success display-6" href="chicken.html"> <span class=" badge bg-success">Chicken</span></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-success display-6 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-success display-6" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            <span class=" badge bg-success">more</span>
           </a>
           <ul class="dropdown-menu">
@@ -88,27 +89,45 @@
     <h3>Feeds</h3>
   <section class="row text-center">
     <div class="col-lg-4">
-      <img src="images/cow1.jpg" alt="growers" width="45%">
+      <div class="card-header">
+        <img src="images/cow1.jpg" alt="growers" width="45%">
       <h5>Growers Mash</h5>
-      <p>Growers Mash helps your chicken to grow big for nice produce</p>
-      <b class="text-warning">Ksh 4,300</b><br>
+      </div>
+      <div class="card-body">
+        <p>Growers Mash helps your chicken to grow big for nice produce</p>
+      </div>
+      <div class="card-footer">
+        <b class="text-warning">Ksh 4,300</b><br>
       <span class="bg-danger text-light">10% off</span>
+      </div>
     </div>
 
     <div class="col-lg-4">
-      <img src="images/Dairy.jpg" alt="growers" width="90%">
+      <div class="card-header">
+        <img src="images/Dairy.jpg" alt="growers" width="90%">
       <h5>Dairy Meal</h5>
-      <p>Dairy Meal nourishes your cows ensuring a continuous and surplus supply of milk</p>
-      <b class="text-warning">Ksh 4,600</b><br>
+      </div>
+      <div class="card-body">
+        <p>Dairy Meal nourishes your cows ensuring a continuous and surplus supply of milk</p>
+      </div>
+      <div class="card-footer">
+        <b class="text-warning">Ksh 4,600</b><br>
       <span class="bg-danger text-light">7% off</span>
+      </div>
     </div>
 
     <div class="col-lg-4">
-      <img src="images/cow2.jpg" alt="growers" width="90%">
+      <div class="card-header">
+        <img src="images/cow2.jpg" alt="growers" width="90%">
       <h5>Goat Mash</h5>
-      <p>Goat Mash increases the weight of your sales and milk production</p>
-      <b class="text-warning">Ksh 4,000</b><br>
+      </div>
+      <div class="card-body">
+        <p>Goat Mash increases the weight of your sales and milk production</p>
+      </div>
+      <div class="card-footer">
+        <b class="text-warning">Ksh 4,000</b><br>
       <span class="bg-danger text-light">12% off</span>
+      </div>
     </div><br><hr>
   </section>
   <!-- end of section two -->
@@ -116,19 +135,31 @@
   <!-- start of section three -->
    <section class="row">
     <div class="col-lg-6">
-      <img src="images/hereford.jpg" alt="growers" width="90%">
+      <div class="card-header">
+        <img src="images/hereford.jpg" alt="growers" width="90%">
       <h5>Hereford cow</h5>
-      <p>these are easily adaptive and flexible and calm too</p>
-      <b class="text-warning">Ksh 304,600</b><br>
+      </div>
+      <div class="card-body">
+        <p>these are easily adaptive and flexible and calm too</p>
+      </div>
+      <div class="card-footer">
+        <b class="text-warning">Ksh 304,600</b><br>
       <span class="bg-danger text-light">7% off</span>
+      </div>
     </div>
 
     <div class="col-lg-6">
-      <img src="images/Jersey.jpg" alt="growers" width="65%">
-      <h5>Jersey cow</h5>
-      <p>Jerseys produce high quality milk favouring standards in the milk market</p>
-      <b class="text-warning">Ksh 210,000</b><br>
+      <div class="card-header">
+        <img src="images/Jersey.jpg" alt="growers" width="65%">
+        <h5>Jersey cow</h5>
+      </div>
+      <div class="card-body">
+        <p>Jerseys produce high quality milk favouring standards in the milk market</p>
+      </div>
+      <div class="card-footer">
+        <b class="text-warning">Ksh 210,000</b><br>
       <span class="bg-danger text-light">12% off</span>
+      </div>
     </div><br><hr>
    </section>
    <!-- end of section three -->
